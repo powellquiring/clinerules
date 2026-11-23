@@ -1,0 +1,2 @@
+#!/bin/sh
+exec uv run --project "$(dirname "$0")" "$(dirname "$0")/PreToolUse.py" "$@"
